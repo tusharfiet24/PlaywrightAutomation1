@@ -1,6 +1,6 @@
 const {test, expect} = require('@playwright/test');
 
-test.only("Web Client App login", async ({page})=>
+test("Web Client App login", async ({page})=>
 {
     const email = "Arjun@gmail.com";
     const productName = 'ADIDAS ORIGINAL';
